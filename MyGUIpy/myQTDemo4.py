@@ -1,4 +1,4 @@
-# 添加状态栏
+# 使用网格布局
 import sys
 from PyQt5.QtWidgets import QMainWindow, \
     QApplication, \
@@ -9,7 +9,9 @@ from PyQt5.QtWidgets import QMainWindow, \
     QLabel, \
     QPushButton, \
     QVBoxLayout, \
-    QHBoxLayout, QWidget
+    QHBoxLayout, QWidget, \
+    QGridLayout
+from PyQt5.QtCore import Qt
 
 
 class GUI(QMainWindow):
@@ -70,6 +72,7 @@ class GUI(QMainWindow):
         label = QLabel("第一个标签", self)
 
         label.move(20, 30)
+        label2 = QLabel("第二个标签", self)
         # height = self.menuBar().height()
         # print('height= f',height)
         button_1 = QPushButton('按钮1', self)
@@ -77,27 +80,27 @@ class GUI(QMainWindow):
         button_2 = QPushButton('按钮2', self)
         button_2.move(150, 60)
 
-        # 设置布局
-        # 创建两个盒子
-        hbox_1 = QHBoxLayout()
-        hbox_2 = QHBoxLayout()
+        button_3 = QPushButton('按钮3', self)
 
-        hbox_1.addWidget(label)
-        hbox_1.addWidget(button_1)
+        # 创建一个网格布局对对象
+        grid_layout = QGridLayout()
 
-        hbox_2.addWidget(button_2)
+        grid_layout.addWidget(label, 0, 0)
+        grid_layout.addWidget(button_1, 0, 1)
+        grid_layout.addWidget(label2, 1, 0)
+        grid_layout.addWidget(button_2, 1, 1)
+        grid_layout.addWidget(button_3, 2, 0, 1, 5)
 
-        # 创建一个垂直的盒子，包含两个水平盒子
-        vbox = QVBoxLayout()
-        vbox.addLayout(hbox_1)
-        vbox.addLayout(hbox_2)
+        # 设置对齐方式
+        grid_layout.setAlignment(Qt.AlignTop)
+        # grid_layout.setAlignment(Qt.AlignBottom)
+        # grid_layout.setAlignment(Qt.AlignRight)
 
-        # 创建一个窗口部件，设置布局为垂直的盒子
+        # 创建一个窗口对象
         layout_widget = QWidget()
-        layout_widget.setLayout(vbox)
+        layout_widget.setLayout(grid_layout)
 
-        # self.setCentralWidget(layout_widget)
-        self.setMenuWidget(layout_widget)
+        self.setCentralWidget(layout_widget)
 
 
 if __name__ == '__main__':

@@ -4,6 +4,8 @@ from PyQt5 import QtWidgets, QtGui
 import sys
 
 
+# 参考教程https://zmister.com/archives/category/guidevelop/pyqt5_basic/
+
 class GUi():
     def __init__(self):
         self.window = QtWidgets.QWidget()
