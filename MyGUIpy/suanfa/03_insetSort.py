@@ -13,6 +13,15 @@ def insert_sort(array):
     return array
 
 
+# mynewArr = [1, 2, 3, 4, 5, 6]
+#
+# my2arr = mynewArr[3::-1]
+#
+# for value in mynewArr[3:1:-1]:
+#     print(value)
+#
+# print(my2arr)
+
 arr = [3, 4, 1, 5, 12, 87, 100, 5]
 
 newArr = insert_sort(arr)

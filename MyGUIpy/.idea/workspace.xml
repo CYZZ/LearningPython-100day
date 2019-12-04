@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2f6d6cf-610c-4fb0-ac75-67b63d8b7249" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/suanfa/bubblesort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/suanfa/insetSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/suanfa/selectSort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/suanfa/04_shell_sort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/suanfa/bubblesort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/suanfa/insetSort.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/suanfa/selectSort.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myQTDemo4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="1020">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="e#9#19#0" expanded="true" />
               </folding>
@@ -73,30 +74,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/suanfa/bubblesort.py">
+        <entry file="file://$PROJECT_DIR$/suanfa/03_insetSort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/suanfa/selectSort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/suanfa/insetSort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret column="74" selection-start-column="74" selection-end-column="74" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/suanfa/04_shell_sort.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -129,17 +117,19 @@
         <option value="$PROJECT_DIR$/myQtDemo3.py" />
         <option value="$PROJECT_DIR$/myQTDemo4.py" />
         <option value="$PROJECT_DIR$/myQtDemo.py" />
-        <option value="$PROJECT_DIR$/suanfa/bubblesort.py" />
         <option value="$PROJECT_DIR$/suanfa/selectSort.py" />
         <option value="$PROJECT_DIR$/suanfa/insetSort.py" />
+        <option value="$PROJECT_DIR$/suanfa/bubblesort.py" />
+        <option value="$PROJECT_DIR$/suanfa/03_insetSort.py" />
+        <option value="$PROJECT_DIR$/suanfa/04_shell_sort.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1161" />
-    <option name="y" value="233" />
-    <option name="width" value="1137" />
-    <option name="height" value="775" />
+    <option name="x" value="-871" />
+    <option name="y" value="197" />
+    <option name="width" value="1249" />
+    <option name="height" value="868" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -183,7 +173,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.insetSort">
+  <component name="RunManager" selected="Python.03_insetSort">
+    <configuration name="03_insetSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MyGUIpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/suanfa" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/suanfa/03_insetSort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="bubblesort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyGUIpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -247,27 +258,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="myQtDemo3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MyGUIpy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myQtDemo3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="selectSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MyGUIpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,11 +281,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.insetSort" />
+        <item itemvalue="Python.03_insetSort" />
         <item itemvalue="Python.selectSort" />
+        <item itemvalue="Python.insetSort" />
         <item itemvalue="Python.bubblesort" />
         <item itemvalue="Python.myQTDemo4" />
-        <item itemvalue="Python.myQtDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -313,15 +303,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1161" y="256" width="1137" height="775" extended-state="0" />
+    <frame x="-871" y="197" width="1249" height="868" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17114696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15553746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30746704" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2693299" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39835164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -477,6 +467,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/suanfa/insetSort.py" />
+    <entry file="file://$PROJECT_DIR$/suanfa/selectSort.py" />
+    <entry file="file://$PROJECT_DIR$/suanfa/bubblesort.py" />
     <entry file="file://$PROJECT_DIR$/myfirst.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -516,25 +509,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myQTDemo4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="1020">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="e#9#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suanfa/bubblesort.py">
+    <entry file="file://$PROJECT_DIR$/suanfa/03_insetSort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/suanfa/selectSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -548,12 +534,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suanfa/insetSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret column="74" selection-start-column="74" selection-end-column="74" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/suanfa/04_shell_sort.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
