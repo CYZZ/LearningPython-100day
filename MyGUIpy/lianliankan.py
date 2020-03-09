@@ -6,7 +6,6 @@ import win32con
 import time
 import random
 
-
 def color_hash(color):
     value = ""
     for i in range(5):
